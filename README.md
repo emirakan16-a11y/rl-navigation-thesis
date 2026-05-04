@@ -43,23 +43,24 @@ Each parameter was tested with two levels (Low / High), resulting in four config
 ## Usage
 
 To run baseline experiments:
-
 python run_all_experiments.py
 
 To run sensitivity analysis:
-
 python run_sensitivity.py
+
 
 ## Reproducibility Notes
 
-Experiments were executed in multiple sequential runs due to computational constraints.  
-The reported results in the thesis are aggregated (mean values over multiple runs).
+Experiments were executed sequentially due to computational constraints.  
+Baseline results are reported as aggregated values (mean over multiple runs).  
+Sensitivity analysis was conducted using a single seed per configuration.
 
 ## Requirements
 
 Install dependencies with:
 
 pip install -r requirements.txt
+
 
 ## Disclaimer
 
