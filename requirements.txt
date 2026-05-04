@@ -1,0 +1,7 @@
+stable-baselines3>=2.0
+gymnasium
+numpy
+pandas
+matplotlib
+wandb
+torch
