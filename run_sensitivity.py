@@ -2,7 +2,10 @@ from train import train
 from config import TrainingConfig
 
 TIMESTEPS = 300000
-
+# NOTE:
+# The sensitivity analysis was conducted with one fixed seed per configuration.
+# Baseline experiments were repeated with multiple seeds, while sensitivity runs
+# were used to compare the relative effect of selected hyperparameter settings.
 
 def run_ppo():
     configs = [
