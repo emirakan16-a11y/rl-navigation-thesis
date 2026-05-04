@@ -6,6 +6,10 @@ TIMESTEPS = 300000
 BASELINE_SEEDS = [1, 2, 3, 4]
 ALGORITHMS = ["DQN"]
 
+# NOTE:
+# In the experiments for the thesis, baseline runs for each algorithm (PPO, A2C, DQN)
+# were executed separately. This script represents one example configuration.
+# The ALGORITHMS list can be adjusted to run other algorithms accordingly.
 
 def run_baselines():
     print("\n" + "=" * 70)
